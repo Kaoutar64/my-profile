@@ -3,7 +3,7 @@ body{
 	color: rgb(30, 30, 30);
 	font-family: Times;
 	font-weight: 100;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	font-size: 17px;
 }
 
@@ -11,17 +11,17 @@ h1,h2,h3{
 	font-family: Helvetica;
 }
 h1{
-	color: blue;
-	font-weight: 100;
-	letter-spacing: 10px;
-	font-size: 32px;
+	color: grey;
+	font-weight: 100px;
+	letter-spacing: 5px;
+	font-size: 24px;
 	text-transform: uppercase;
 }
 	
 h2{ 
 	color: rgb(100, 100, 100);
 	font-weight: lighter;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	font-size: 24px;
  }
 a{
@@ -30,7 +30,7 @@ a{
 
 }
 a:hover {
-	color: black;
+	color: grey;
 }
 
 .container {
@@ -58,17 +58,19 @@ a:hover {
 }
 
 .img-circle{
-	border-radius: 50px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
 .btn-blue{
-	background-color: blue;
+	background-color: grey ;
 	color: white;
 	padding: 15px 20px;
 	border-radius: 4px;
 
 }
 .btn-blue{
-	background-color: black;
+	background-color: grey;
 	color : white;
 }
 .list-inline{
@@ -84,7 +86,7 @@ a:hover {
 	color: rgb(230 ,230, 230);
 }
 list-inline i: hover{
-	color: black;
+	color: grey;
 }
 #introduction p {
 	margin-bottom: 40px;
